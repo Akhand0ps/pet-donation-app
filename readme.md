@@ -222,7 +222,7 @@ pet/
 ## Deployment
 
 ### Backend (Render)
-- **URL:** https://pet-backend-8pa4.onrender.com/
+- **URL:** https://your-backend.onrender.com/
 - **Build Command:** `npm run build`
 - **Start Command:** `npm start`
 
