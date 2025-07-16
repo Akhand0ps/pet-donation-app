@@ -2,6 +2,28 @@
 
 A full-stack MERN application for a pet shelter donation system. Users can browse animals, donate securely, and admins can manage animals and view donations.
 
+**🌐 Live Demo:** [https://aidforpaws.vercel.app/](https://aidforpaws.vercel.app/)
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Homepage
+![Homepage](https://res.cloudinary.com/djhhijldt/image/upload/v1752701015/Screenshot_2025-07-17_024435_c5ydbd.png)
+*Vibrant gradient homepage with hero section, search functionality, and animal cards. Features a modern design with floating elements and smooth animations.*
+
+### 🐾 Animal Donation Page
+![Donation Page](https://res.cloudinary.com/djhhijldt/image/upload/v1752701041/Screenshot_2025-07-17_024530_sgzx9d.png)
+*Individual animal donation page showing "pinky" - a dog with a red bandage. Clean two-column layout with animal details and donation form.*
+
+### 💳 Payment Success
+![Payment Success](https://res.cloudinary.com/djhhijldt/image/upload/v1752701052/Screenshot_2025-07-17_024631_mkgmy6.png)
+*Razorpay payment confirmation overlay showing successful transaction with green checkmark and payment details.*
+
+### 📊 Admin Dashboard - Donations
+![Admin Dashboard](https://res.cloudinary.com/djhhijldt/image/upload/v1752701066/Screenshot_2025-07-17_024831_r8ubmc.png)
+*Admin donations management page displaying total amount (₹7,610), total donations (7), average donation (₹1,087), and detailed donation table.*
+
 ---
 
 ## Features
@@ -197,6 +219,19 @@ pet/
 
 ---
 
+## Deployment
+
+### Backend (Render)
+- **URL:** https://pet-backend-8pa4.onrender.com/
+- **Build Command:** `npm run build`
+- **Start Command:** `npm start`
+
+### Frontend (Vercel)
+- **URL:** https://aidforpaws.vercel.app/
+- **Build Command:** `npm run build`
+- **Output Directory:** `dist`
+
+---
 
 ## License
 
