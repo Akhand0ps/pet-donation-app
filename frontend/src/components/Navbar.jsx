@@ -29,7 +29,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2" onClick={closeMobileMenu}>
               <Heart className="h-8 w-8 text-red-500" />
-              <span className="text-xl font-bold text-gray-900">Pet Shelter</span>
+              <span className="text-xl font-bold text-gray-900">aidforpaws</span>
             </Link>
           </div>
 
