@@ -6,7 +6,7 @@ import {z} from "zod";
 
 export const donationZod = z.object({
     donorName:z.string().min(1),
-    donorEmail:z.string().email(),
+    donorEmail:z.string().email({message:"Invalid email"}), //ye bhi outdated ho gya hai. object use kr . ab sahi hai
     amount:z.number().positive(),
     animal: z.string().refine((val) => mongoose.Types.ObjectId.isValid(val),{message: "Invalid animal ID",}),
     paymentId:z.string().min(1)

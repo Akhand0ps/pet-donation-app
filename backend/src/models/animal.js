@@ -7,7 +7,7 @@ import mongoose from "mongoose";
 export const animalZod = z.object({
     name:z.string().min(1),
     description:z.string().min(1),
-    imageUrl:z.string().url(),
+    imageUrl:z.string().url({message:"Invalid url"}), // sirf .url() outdated ho gya hai zod me. object use kr uske andar smjha.. ab sahi hai.
     type:z.string(),
     category:z.string().optional(),
 })
