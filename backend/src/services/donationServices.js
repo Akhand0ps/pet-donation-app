@@ -7,7 +7,7 @@ export const createDonation = async (data) => {
 
 // Get all donations
 export const getAllDonations = async () => {
-  return await Donation.find().populate("animal");
+  return await Donation.find().populate("animal").sort({createdAt:-1});
 };
 
 // Get donation by ID (optional, not required by frontend)
